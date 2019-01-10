@@ -1,7 +1,10 @@
-print("Hi, I am PyProg, your personal bot.")
+print("Hi, I am Kendy, your personal bot.")
 UserName = input("Please enter your name : ")
 print("Hello, " + UserName + ", nice to meet you.")
 input1 = input("Number 1 > :")
 input2 = input("Number 2 > :")
-result = input1 + input2
-print(result)
+number1 = int(input1)
+number2 = int(input2)
+result = number1 / number2
+output = str(result)
+print(input1 + " / " + input2 + " = " + output)
